@@ -9,7 +9,8 @@
 */
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/logo_pardinho_vazada-01.webp",
+    "logo_width": 50,
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "avenir_next_n3",

@@ -1,0 +1,84 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_n8ahXk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_3YNzdQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visitas",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3YNzdQ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bd21df_f462e96415af408da9b2db518cb0ff8c_mv2.webp",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_chfwAW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GCrRFj": {
+          "type": "heading",
+          "settings": {
+            "heading": "conheça a produção dos queijos pardinho de perto",
+            "heading_size": "h1"
+          }
+        },
+        "text_xXhjBG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quando sensibilidade, referências e conhecimento técnico se alinham, a autenticidade toma forma.<\/p><p>Olhar de perto cada etapa das maravilhas da Pardinho Artesanal: este é o nosso convite a você a partir de agora! <\/p><p><\/p><p>Estamos a cerca de 200 km da capital paulista, no município de Pardinho.<\/p><p>São 960m de altitude e grandes paredões que formam degraus. Aqui, uma denominação geográfica precisa, chamada \"Cuesta\", se instala, e a preservação de uma exuberante mata nativa floresce.<\/p><p>E por que todas essas condições importam tanto?<\/p><p>Para além de suas belezas, podemos dizer que elas dizem tudo!<\/p><p>É diante desse lindo cenário que desenvolvemos as nutritivas pastagens que alimentam nosso rebanho.<\/p><p>Nossos animais criados livres, com total garantia de bem-estar, absorvem características únicas desse ambiente.<\/p><p>E é na sua origem, na indiscutível qualidade do leite das vacas Gir, que a singularidade da Pardinho Artesanal foi criada e deu origem ao nosso primeiro queijo: o Cuesta. O desenvolvimento da raça Girsey também foi essencial para dar continuidade ao projeto. O cruzamento entre Gir e Gersey vem se mostrando uma potência, inclusive reconhecida em Medalha Super Ouro na França em 2021, com o nosso queijo Mandala.<\/p><p>Com o bem-estar animal presente de ponta a ponta, a ordenha também se enquadra em um processo determinante.<\/p><p>​<\/p><p>E para que tantas particularidades sejam agregadas, controles de qualidade e protocolos sanitários são pontos primordiais, tratados com a devida rigidez.<\/p><p>Cada instante na Pardinho é excepcional, mas é no processo de produção, com a mão na massa, que somos agentes e também testemunhas de resultados extraordinários!<\/p><p>​<\/p><p>Com máximo equilíbrio entre temperatura e umidade, antigos silos de trincheiras que deram lugar às nossas caves de maturação, entram em ação.<\/p><p>cada queijo é maturado de 2 a 18 meses. <\/p><p>​<\/p><p>Assim, os queijos Pardinho Artesanal estão incrivelmente prontos para seguir seu destino: proporcionar sabores, aromas e texturas inigualáveis, criando experiências irreproduzíveis!<\/p><p> <\/p><p>Venha nos visitar e conhecer de perto alguma dessas etapas da nossa produção.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GCrRFj",
+        "text_xXhjBG"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_n8ahXk",
+    "rich_text_chfwAW"
+  ]
+}

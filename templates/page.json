@@ -1,14 +1,109 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_7aY37L": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FGXTTD": {
+          "type": "heading",
+          "settings": {
+            "heading": "DA ONDE VEM O QUEIJO?",
+            "heading_size": "h1"
+          }
+        },
+        "text_8yKgxL": {
+          "type": "text",
+          "settings": {
+            "text": "Das especificidades da terra, onde cresce o pasto que alimentam as vacas, até a apresentação do produto na mesa de um restaurante estrelado.Entenda as diferentes posturas da Pardinho ao assumir os três pilares da produção de queijos: Produção de Leite, Produção do Queijo e Maturação.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FGXTTD",
+        "text_8yKgxL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_9PV9WT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HPC379": {
+          "type": "heading",
+          "settings": {
+            "heading": "Animais",
+            "heading_size": "h1"
+          }
+        },
+        "text_xTCezW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A história da Pardinho Artesanal tem suas raízes firmemente estabelecidas na Fazenda Sant'Anna, uma referência no segmento pecuário, celebrando seu 50º aniversário em 2024. A criação e produção dos irreproduzíveis Queijos Pardinho tornaram-se viáveis como consequência de um projeto anterior, de maneira espontânea, criou-se o cenário propício para o nascimento da Pardinho Artesanal.<\/p><p>​<\/p><p>A Fazenda Sant'Anna, também situada em Pardinho - SP, destacou-se como pioneira na formação da raça Brangus no Sudeste e Centro-Oeste do Brasil, buscando tornar a raça mais adaptada às condições tropicais. Essa conquista foi possível devido à forte base zebuína e à seleção contínua das raças. No final dos anos 90, percebendo a necessidade de inovação no mercado de coleta de sêmen, fundou a Central Bela Vista, desempenhando um papel crucial nas pesquisas que visavam desvendar o genoma da raça Nelore. Posteriormente, a fazenda tornou-se uma das primeiras propriedades rurais do mundo a ser certificada pela ISO 14001 de gestão ambiental.<\/p><p>​<\/p><p>Com uma sólida base genética de animais da raça Gir, aliada ao conhecimento proveniente dos projetos da Fazenda Sant'Anna e Central Bela Vista, surge a Pardinho Artesanal. Com uma compreensão profunda de toda a cadeia do setor, naturalmente desencadeia-se a percepção de que o leite dessa raça apresentava um sabor único. Em 2014, dá-se início ao projeto do laticínio Pardinho Artesanal, que, por meio de processos singulares e a busca por criar queijos de sabores complexos e autênticos e legitimamente brasileiros, desenvolve após extensos testes o seu primeiro queijo: Cuesta, feito a partir do leite cru das vacas Gir Pardinho.<\/p><p>​<\/p><p>O queijo Cuesta marcou o início inovador da produção com leite cru de vacas Gir Pardinho, algo pouco comum para queijos no Brasil. A resistência natural da raça Gir a doenças e sua adaptação a climas tropicais promovem a sustentabilidade e o bem-estar animal. A produção com leite cru é incomum no Brasil, onde a maioria dos produtos lácteos é feita a partir de leite pasteurizado, muitas vezes adquirido de terceiros. Vale ressaltar que a Pardinho Artesanal se diferencia ao possuir um rebanho próprio, assegurando a qualidade desde a origem do leite. As vantagens incluem a preservação de componentes naturais que contribuem para o sabor e complexidade do queijo, refletindo as características únicas do terroir de Pardinho. A pasteurização, ao contrário, reduz a diversidade de sabores. A Pardinho Artesanal também assegura a qualidade por meio de rigorosas políticas de segurança do alimento, atestado através do S.I.F. (Serviço de Inspeção Federal).<\/p><p>​<\/p><p>Desde então, ao Cuesta somaram-se outros queijos: Mandala, Mandalinha, Cuestinha e CuestAzul. Ao longo da trajetória da Pardinho Artesanal, a inovação permaneceu como um valor indispensável. Dessa forma, surgiu um novo cruzamento de raças que resultou em uma nova matéria-prima: o leite de vacas Girsey. A Girsey é fruto do cruzamento da zebuína Gir Pardinho, raça originária da Índia, com a taurina Jersey, originária das Ilhas Jersey (Inglaterra). Essa inovação introduziu de forma inédita o uso do leite cru dessa raça no mercado de produção de queijo. A Girsey combina benefícios, como melhor adaptação ao clima tropical e, consequentemente, bem-estar animal. Isso possibilita a obtenção de um leite com alto teor de gordura e proteína, agregando sabor, valor nutricional superior e maior produtividade. <\/p><p>Ao ampliar a variedade de queijos com a introdução da Girsey, a Pardinho Artesanal reforça seu compromisso contínuo com a inovação e a busca pela excelência na produção de queijos autênticos e de qualidade.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_gt8dyz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botão",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HPC379",
+        "text_xTCezW",
+        "button_gt8dyz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03978_edited.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_7aY37L",
+    "image_with_text_9PV9WT"
   ]
 }

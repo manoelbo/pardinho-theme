@@ -17,79 +17,18 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_n8ahXk": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_3YNzdQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Seja um revendedor",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3YNzdQ"
-      ],
+    "custom_liquid_qc7Mcm": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/11062b_16e03c279e4a4410a577d8dcf871888d_mv2.webp",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_chfwAW": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GCrRFj": {
-          "type": "heading",
-          "settings": {
-            "heading": "conheça a produção dos queijos pardinho de perto",
-            "heading_size": "h1"
-          }
-        },
-        "text_xXhjBG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Agradecemos por nos escolherem. Estamos verdadeiramente honrados!<\/p><p>O Queijista, nomenclatura adotada para melhor definição do papel vital que desempenham os vendedores de queijo na cadeia geral de laticínios. <\/p><p>Seu conhecimento, habilidades e dedicação são fundamentais para promover e valorizar os queijos brasileiros, um papel verdadeiramente digno de reconhecimento que merecem e têm total apoio da nossa parte!A venda de queijos é uma parte crucial da cadeia do queijo artesanal, tão significativa quanto a produção. Ao optar por empórios e queijarias, destaca-se o cuidado dedicado aos produtos e o atendimento, ambos sendo os maiores diferenciais. Essa escolha não apenas garante uma experiência única, mas também representa um apoio valioso aos comércios locais.<\/p><p>Os especialistas desses estabelecimentos são verdadeiros conhecedores, prontos para guiá-lo pelo vasto mundo dos sabores com conselhos personalizados e até mesmo recomendações de harmonização, assegurando que sua escolha atenda perfeitamente às suas preferências.<\/p><p>O ponto alto é a atenção meticulosa à conservação dos queijos, preservando sua textura e aroma. Isso garante que cada pedaço esteja no auge do sabor, beneficiado pelo recebimento frequente de entregas, proporcionando sempre produtos frescos.<\/p><p>Faça parte da nova cena do queijo no Brasil. Vocês têm o nosso apoio! <\/p><p>Preencha o formulário abaixo e entraremos em contato com você.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GCrRFj",
-        "text_xXhjBG"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "custom_liquid": "",
         "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "contact_form_BygCrQ": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "image_banner_n8ahXk",
-    "rich_text_chfwAW",
-    "contact_form_BygCrQ"
+    "custom_liquid_qc7Mcm"
   ]
 }

@@ -23,24 +23,16 @@
         "heading_3YNzdQ": {
           "type": "heading",
           "settings": {
-            "heading": "De onde vem o queijo?",
+            "heading": "Visitas",
             "heading_size": "h1"
-          }
-        },
-        "text_XLgztJ": {
-          "type": "text",
-          "settings": {
-            "text": "Das especificidades da terra, onde cresce o pasto que alimentam as vacas, até a apresentação do produto na mesa de um restaurante estrelado.Entenda as diferentes posturas da Pardinho ao assumir os três pilares da produção de queijos: Produção de Leite, Produção do Queijo e Maturação.",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_3YNzdQ",
-        "text_XLgztJ"
+        "heading_3YNzdQ"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.jpg",
+        "image": "shopify:\/\/shop_images\/bd21df_f462e96415af408da9b2db518cb0ff8c_mv2.webp",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-left",

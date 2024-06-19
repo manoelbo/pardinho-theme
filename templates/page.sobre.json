@@ -41,13 +41,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true

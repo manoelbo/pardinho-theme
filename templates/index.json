@@ -54,6 +54,105 @@
         "image8b": "shopify:\/\/shop_images\/imagem5-1f.jpg"
       }
     },
+    "conteudo_6nFyky": {
+      "type": "conteudo",
+      "blocks": {
+        "title_UVUKBw": {
+          "type": "title",
+          "settings": {
+            "font_style": "header-font-1",
+            "title_size": "1",
+            "title_text": "Natural, tecnológico, artesanal.",
+            "margin_title": "my-1"
+          }
+        },
+        "richtext_LrtyrB": {
+          "type": "richtext",
+          "settings": {
+            "text_size": "2",
+            "rich_text": "<p>Pardinho Artesanal, onde o sabor natural nasce do encontro da tecnologia com o artesanal.<\/p>",
+            "margin_text": "my-1"
+          }
+        },
+        "richtext_DaB47H": {
+          "type": "richtext",
+          "settings": {
+            "text_size": "4",
+            "rich_text": "<p>Localizada no município de Pardinho, a cerca de 200km da capital paulista, a fazenda está a 960m de altitude, reunindo condições climáticas e ambientais singulares. Metade de sua área é destinada à preservação de sua exuberante mata nativa, já a outra dá espaço às pastagens responsáveis pela alimentação do gado gir. Foi uma das primeiras fazendas do Brasil a obter certificação ISO 14001, de gestão ambiental.<\/p>",
+            "margin_text": "my-5"
+          }
+        },
+        "image_picker_xtmmF7": {
+          "type": "image_picker",
+          "settings": {
+            "src": "shopify:\/\/shop_images\/DSC04335_edited_1.webp",
+            "width": "w-100 h-auto",
+            "margin_image": "my-1"
+          }
+        },
+        "richtext_BdV9XM": {
+          "type": "richtext",
+          "settings": {
+            "text_size": "4",
+            "rich_text": "<p>Dentro do laticínio, tudo é feito com a atuação direta de nossos artesãos. O leite que chega vai para tachos de cobre, reformados de uma antiga produção francesa em Comtè, neles são aquecidos, adicionadas as culturas e cortados. Após retirados dos tachos, são enformados, todos os processos feitos manualmente, um por um, com o cuidado que cada um deles merece ter.<\/p>",
+            "margin_text": "my-4"
+          }
+        },
+        "botao_jQyKjw": {
+          "type": "botao",
+          "settings": {
+            "button_text": "Saiba Mais",
+            "button_url": "",
+            "margin_button": "my-1"
+          }
+        },
+        "richtext2_EHnBKK": {
+          "type": "richtext2",
+          "settings": {
+            "text_size2": "4",
+            "rich_text2": "<p>O trabalho de Pardinho Artesanal está no Gir, raça zebuína de aptidão leiteira. Originaria da Índia seu leite possui caraterísticas únicas, tanto sensoriais (sabores e aromas) quanto nutritivas.<\/p><p> <\/p><p>O bem-estar animal é uma das maiores preocupações da fazenda, por isso não separamos os bezerros das vacas durante a ordenha, deixando sempre um teto disponível ao animal. Assim, além de garantir a saúde dos bezerros e o bem-estar das vacas, conseguimos tirar o leite com o estímulo natural, sem artifícios químicos.<\/p><p>Um dos pilares fundamentais do projeto e a criação das vacas livres, se alimentando basicamente das pastagens da cuesta. Este método de manejo e o grande responsável tanto por imprimir as características do lugar em nosso leite, como pelo bem-estar de nossos animais, ambos fundamentais para a qualidade de nossos produtos.<\/p>",
+            "margin_text2": "my-1"
+          }
+        },
+        "image_picker2_xGcgXh": {
+          "type": "image_picker2",
+          "settings": {
+            "src2": "shopify:\/\/shop_images\/img-maturacao_edited.webp",
+            "width2": "w-75 h-auto",
+            "margin_image2": "my-5"
+          }
+        },
+        "richtext2_VGcLgy": {
+          "type": "richtext2",
+          "settings": {
+            "text_size2": "4",
+            "rich_text2": "<p>Antigos silos de trincheiras deram lugar as caves de maturação montadas com base nas mais avançadas tecnologias, como controle de temperatura, umidade e reposição de gases. Este processo final é fundamental para dar as características próprias de cada um dos queijos. Todos eles são vistoriados diariamente, alguns virados, outros lavados, tudo para que seus sabores, aromas e texturas proporcionem aos nossos clientes experiencias memoráveis.<\/p>",
+            "margin_text2": "my-1"
+          }
+        }
+      },
+      "block_order": [
+        "title_UVUKBw",
+        "richtext_LrtyrB",
+        "richtext_DaB47H",
+        "image_picker_xtmmF7",
+        "richtext_BdV9XM",
+        "botao_jQyKjw",
+        "richtext2_EHnBKK",
+        "image_picker2_xGcgXh",
+        "richtext2_VGcLgy"
+      ],
+      "settings": {
+        "layout_columns": "double",
+        "container": "container",
+        "alignment_col1": "start",
+        "alignment_col2": "start",
+        "offset_col1": "offset-lg-2 offset-md-1",
+        "offset_col2": "offset-lg-4 offset-md-2",
+        "show_divider_top": false,
+        "show_divider_bottom": false
+      }
+    },
     "image_banner_hdkyRG": {
       "type": "image-banner",
       "blocks": {
@@ -106,6 +205,7 @@
   "order": [
     "collage_XjrDzU",
     "mosaico_3Kxxa9",
+    "conteudo_6nFyky",
     "image_banner_hdkyRG"
   ]
 }

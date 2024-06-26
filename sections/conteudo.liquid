@@ -1,0 +1,492 @@
+<div class="{{ section.settings.container }} content-pardinho section-padding">
+  {% if section.settings.show_divider_top %}
+    <hr>
+  {% endif %}
+
+  <div class="row{% if section.settings.layout_columns == 'double' %} {% endif %} py-5 my-5">
+    <div class="col{%  if section.settings.layout_columns == 'single' %}-md-12{% else %}-md-6{% endif %} text-{{ section.settings.alignment_col1 }}">
+      <div class="{{ section.settings.offset_col1 }}">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'title' %}
+              <p class="{{ block.settings.font_style }} lh-1 fs-{{ block.settings.title_size }} {{ block.settings.margin_title }}">
+                {{ block.settings.title_text }}
+              </p>
+            {% when 'richtext' %}
+              <div class="rich-text fs-{{ block.settings.text_size }} {{ block.settings.margin_text }}">
+                {{ block.settings.rich_text }}
+              </div>
+            {% when 'image_picker' %}
+              <img
+                src="{{ block.settings.src | image_url }}"
+                alt=""
+                height="{{block.settings.src.height }}"
+                width="{{block.settings.src.width }}"
+                class="{{ block.settings.width }} {{ block.settings.margin_image }}"
+              >
+            {% when 'botao' %}
+              <div>
+                <a
+                  href="{{ block.settings.button_url }}"
+                  class="button button--secondary {{ block.settings.margin_button }}"
+                >
+                  {{ block.settings.button_text }}
+                </a>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+
+    {% if section.settings.layout_columns == 'double' %}
+      <div class="col-md-6 text-{{ section.settings.alignment_col2 }}">
+        <div class="{{ section.settings.offset_col2 }}">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'title2' %}
+                <p class="{{ block.settings.font_style2 }} lh-1 fs-{{ block.settings.title_size2 }} {{ block.settings.margin_title2 }}">
+                  {{ block.settings.title_text2 }}
+                </p>
+              {% when 'richtext2' %}
+                <div class="rich-text fs-{{ block.settings.text_size2 }} {{ block.settings.margin_text2 }}">
+                  {{ block.settings.rich_text2 }}
+                </div>
+              {% when 'image_picker2' %}
+                <img
+                  src="{{ block.settings.src2 | image_url }}"
+                  alt=""
+                  height="{{block.settings.src2.height }}"
+                  width="{{block.settings.src2.width }}"
+                  class="{{ block.settings.width2 }} {{ block.settings.margin_image2 }}"
+                >
+              {% when 'botao2' %}
+                <div>
+                  <a
+                    href="{{ block.settings.button_url2 }}"
+                    class="button button--secondary {{ block.settings.margin_button2 }}"
+                  >
+                    {{ block.settings.button_text2 }}
+                  </a>
+                </div>
+            {% endcase %}
+          {% endfor %}
+          <!-- Conteúdo adicional para a segunda coluna pode ser adicionado aqui -->
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if section.settings.show_divider_bottom %}
+    <hr>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Conteúdo Pardinho",
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "layout_columns",
+      "label": "Layout (Colunas)",
+      "options": [
+        { "value": "single", "label": "1-coluna" },
+        { "value": "double", "label": "2-colunas" }
+      ],
+      "default": "single"
+    },
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Layout (Colunas)",
+      "options": [
+        { "value": "container-fluid", "label": "Fluido (Largura Total)" },
+        { "value": "container", "label": "Container" }
+      ],
+      "default": "container-fluid"
+    },
+    {
+      "type": "select",
+      "id": "alignment_col1",
+      "label": "Alinhamento do Conteúdo (Col 1)",
+      "options": [
+        { "value": "start", "label": "Esquerda" },
+        { "value": "center", "label": "Centro" },
+        { "value": "end", "label": "Direita" }
+      ],
+      "default": "start"
+    },
+
+    {
+      "type": "select",
+      "id": "alignment_col2",
+      "label": "Alinhamento do Conteúdo (Col 2)",
+      "options": [
+        { "value": "start", "label": "Esquerda" },
+        { "value": "center", "label": "Centro" },
+        { "value": "end", "label": "Direita" }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "select",
+      "id": "offset_col1",
+      "label": "Espaço Vazio Esquerdo (Col 1)",
+      "options": [
+        { "value": "offset-lg-2 offset-md-1", "label": "1/6" },
+        { "value": "offset-lg-4 offset-md-2", "label": "1/3" },
+        { "value": "offset-lg-6 offset-md-3", "label": "1/2" },
+        { "value": "offset-0", "label": "Sem espaço" }
+      ],
+      "default": "offset-0"
+    },
+    {
+      "type": "select",
+      "id": "offset_col2",
+      "label": "Espaço Vazio Esquerdo (Col 2)",
+      "options": [
+        { "value": "offset-lg-2 offset-md-1", "label": "1/6" },
+        { "value": "offset-lg-4 offset-md-2", "label": "1/3" },
+        { "value": "offset-lg-6 offset-md-3", "label": "1/2" },
+        { "value": "offset-0", "label": "Sem espaço" }
+      ],
+      "default": "offset-0"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_top",
+      "label": "Linha superior (divisor)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_bottom",
+      "label": "Linha inferior (divisor)",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Título - Coluna 1",
+      "settings": [
+        {
+          "type": "select",
+          "id": "font_style",
+          "label": "Estilo da Fonte",
+          "options": [
+            { "value": "header-font-1", "label": "Fonte A" },
+            { "value": "header-font-2", "label": "Fonte B" }
+          ],
+          "default": "header-font-1"
+        },
+        {
+          "type": "select",
+          "id": "title_size",
+          "label": "Tamanho da Fonte",
+          "options": [
+            { "value": "lll", "label": "LLL" },
+            { "value": "ll", "label": "LL" },
+            { "value": "1", "label": "L" },
+            { "value": "2", "label": "MMM" },
+            { "value": "3", "label": "MM" },
+            { "value": "4", "label": "M" },
+            { "value": "5", "label": "P" },
+            { "value": "6", "label": "PP" }
+          ],
+          "default": "1"
+        },
+        {
+          "type": "text",
+          "id": "title_text",
+          "label": "Texto do Título"
+        },
+        {
+          "type": "select",
+          "id": "margin_title",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "title2",
+      "name": "Título - Coluna 2",
+      "settings": [
+        {
+          "type": "select",
+          "id": "font_style2",
+          "label": "Estilo da Fonte",
+          "options": [
+            { "value": "header-font-1", "label": "Fonte A" },
+            { "value": "header-font-2", "label": "Fonte B" }
+          ],
+          "default": "header-font-1"
+        },
+        {
+          "type": "select",
+          "id": "title_size2",
+          "label": "Tamanho da Fonte",
+          "options": [
+            { "value": "lll", "label": "LLL" },
+            { "value": "ll", "label": "LL" },
+            { "value": "1", "label": "L" },
+            { "value": "2", "label": "MMM" },
+            { "value": "3", "label": "MM" },
+            { "value": "4", "label": "M" },
+            { "value": "5", "label": "P" },
+            { "value": "6", "label": "PP" }
+          ],
+          "default": "1"
+        },
+        {
+          "type": "text",
+          "id": "title_text2",
+          "label": "Texto do Título"
+        },
+        {
+          "type": "select",
+          "id": "margin_title2",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "Texto - Coluna 1",
+      "settings": [
+        {
+          "type": "select",
+          "id": "text_size",
+          "label": "Tamanho da Fonte",
+          "options": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" },
+            { "value": "3", "label": "3" },
+            { "value": "4", "label": "4" },
+            { "value": "5", "label": "5" },
+            { "value": "6", "label": "6" }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Texto"
+        },
+        {
+          "type": "select",
+          "id": "margin_text",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "richtext2",
+      "name": "Texto - Coluna 2",
+      "settings": [
+        {
+          "type": "select",
+          "id": "text_size2",
+          "label": "Tamanho da Fonte",
+          "options": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" },
+            { "value": "3", "label": "3" },
+            { "value": "4", "label": "4" },
+            { "value": "5", "label": "5" },
+            { "value": "6", "label": "6" }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text2",
+          "label": "Texto"
+        },
+        {
+          "type": "select",
+          "id": "margin_text2",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "name": "Imagem - Coluna 1",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "src",
+          "label": "Imagem"
+        },
+        {
+          "type": "select",
+          "id": "width",
+          "label": "Largura Total (full-width)",
+          "options": [
+            { "value": "w-100 h-auto", "label": "100%" },
+            { "value": "w-75 h-auto", "label": "75%" },
+            { "value": "w-50 h-auto", "label": "50%" },
+            { "value": "w-25 h-auto", "label": "25%" },
+            { "value": "w-auto h-auto", "label": "Tamanho da Imagem" }
+          ],
+          "default": "w-auto h-auto"
+        },
+        {
+          "type": "select",
+          "id": "margin_image",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "image_picker2",
+      "name": "Imagem - Coluna 2",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "src2",
+          "label": "Imagem"
+        },
+        {
+          "type": "select",
+          "id": "width2",
+          "label": "Largura Total (full-width)",
+          "options": [
+            { "value": "w-100 h-auto", "label": "100%" },
+            { "value": "w-75 h-auto", "label": "75%" },
+            { "value": "w-50 h-auto", "label": "50%" },
+            { "value": "w-25 h-auto", "label": "25%" },
+            { "value": "w-auto h-auto", "label": "Tamanho da Imagem" }
+          ],
+          "default": "w-auto h-auto"
+        },
+        {
+          "type": "select",
+          "id": "margin_image2",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "botao",
+      "name": "Botão - Coluna 1",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Texto"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "margin_button",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    },
+    {
+      "type": "botao2",
+      "name": "Botão - Coluna 2",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text2",
+          "label": "Texto"
+        },
+        {
+          "type": "url",
+          "id": "button_url2",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "margin_button2",
+          "label": "Margem do Título",
+          "options": [
+            { "value": "my-0", "label": "0" },
+            { "value": "my-1", "label": "1" },
+            { "value": "my-2", "label": "2" },
+            { "value": "my-3", "label": "3" },
+            { "value": "my-4", "label": "4" },
+            { "value": "my-5", "label": "5" }
+          ],
+          "default": "my-1"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Conteúdo Pardinho",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

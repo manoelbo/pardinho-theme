@@ -94,14 +94,41 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'title' -%}
-                <div class="product__title" {{ block.shopify_attributes }}>
-                  <h1>{{ product.title | escape }}</h1>
+                <div class="product__title {{ section.settings.text_case }}" {{ block.shopify_attributes }}>
+                  <h1 class="fs-lll lh-1">{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
-                    <h2 class="h1">
+                    <h2 class="h1 fs-lll lh-1">
                       {{ product.title | escape }}
                     </h2>
                   </a>
                 </div>
+              {%- when 'tags' -%}
+                {% if product.tags.size > 1 %}
+                  <div class="prodcut__tags">
+                    •
+                    {% for tag in product.tags %}
+                      <span> {{ tag }} • </span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              {%- when 'sensorial' -%}
+                <div class="product__sensorial">
+                  <div>
+                    <hr class="primeiro">
+                    {{ block.settings.sensorial_text }}
+                    <hr class="segundo">
+                  </div>
+                </div>
+              {%- when 'depoimento' -%}
+                {% if block.settings.depoimento %}
+                  <div class="depoimento">
+                    <div class="rich-text">
+                      {{ block.settings.depoimento }}
+                      <p class="autor">{{ block.settings.autor }}</p>
+                    </div>
+                  </div>
+                {% endif %}
+
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -116,20 +143,7 @@
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                   </div>
                 {%- endif -%}
-                {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-                  <div class="product__tax caption rte">
-                    {%- if cart.duties_included and cart.taxes_included -%}
-                      {{ 'products.product.duties_and_taxes_included' | t }}
-                    {%- elsif cart.taxes_included -%}
-                      {{ 'products.product.taxes_included' | t }}
-                    {%- elsif cart.duties_included -%}
-                      {{ 'products.product.duties_included' | t }}
-                    {%- endif -%}
-                    {%- if shop.shipping_policy.body != blank -%}
-                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
+
                 <div {{ block.shopify_attributes }}>
                   {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -211,23 +225,25 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
-                <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
-                  <details id="Details-{{ block.id }}-{{ section.id }}">
-                    <summary>
-                      <div class="summary__title">
-                        {% render 'icon-accordion', icon: block.settings.icon %}
-                        <h2 class="h4 accordion__title inline-richtext">
-                          {{ block.settings.heading | default: block.settings.page.title | escape }}
-                        </h2>
+                {% if block.settings.content.size > 1 or block.settings.page.content %}
+                  <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                    <details id="Details-{{ block.id }}-{{ section.id }}">
+                      <summary>
+                        <div class="summary__title">
+                          {% render 'icon-accordion', icon: block.settings.icon %}
+                          <h2 class="h4 accordion__title inline-richtext">
+                            {{ block.settings.heading | default: block.settings.page.title | escape }}
+                          </h2>
+                        </div>
+                        {% render 'icon-caret' %}
+                      </summary>
+                      <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                        {{ block.settings.content }}
+                        {{ block.settings.page.content }}
                       </div>
-                      {% render 'icon-caret' %}
-                    </summary>
-                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                      {{ block.settings.content }}
-                      {{ block.settings.page.content }}
-                    </div>
-                  </details>
-                </div>
+                    </details>
+                  </div>
+                {% endif %}
               {%- when 'quantity_selector' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
@@ -240,17 +256,7 @@
                     | item_count_for_variant: product.selected_or_first_available_variant.id
                   -%}
                   {% # theme-check-enable %}
-                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
-                    {{ 'products.product.quantity.label' | t }}
-                    <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
-                      {%- render 'loading-spinner' -%}
-                      <span
-                        >(
-                        {{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}}
-                        )</span
-                      >
-                    </span>
-                  </label>
+
                   <div class="price-per-item__container">
                     <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                       <button class="quantity__button" name="minus" type="button">
@@ -762,6 +768,43 @@
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
       "limit": 1
+    },
+    {
+      "type": "tags",
+      "name": "Tags",
+      "limit": 1
+    },
+    {
+      "type": "sensorial",
+      "name": "Sensorial",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "sensorial_text",
+          "label": "Descrição Sensorial do Queijo",
+          "default": "<p>Queijo de massa macia, com notas láticas adocicadas e amendoadas. Sua casca rústica, rica em sabores e textura, contribui com a experiência geral.</p>"
+        }
+      ]
+    },
+    {
+      "type": "depoimento",
+      "name": "Depoimento",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "depoimento",
+          "label": "Depoimento Sobre o Queijo",
+          "default": "<p>'Já não consigo mais falar sobre queijos brasileiros sem menciona-lo. Cuestinha é um queijo para quem gosta do simples, sofisticado. De complexidade sem ser complicado. Um queijo para qualquer idade; que dispensa acompanhamento porque a casca complementa a massa como se fossem dois alimentos distintos, harmonizados'</p>"
+        },
+        {
+          "type": "text",
+          "id": "autor",
+          "label": "Autor do Depoimento",
+          "default": "Jhon Braga"
+        }
+      ]
     },
     {
       "type": "price",
@@ -2075,6 +2118,30 @@
       "id": "enable_sticky_info",
       "default": true,
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
+    },
+    {
+      "type": "select",
+      "id": "text_case",
+      "label": "Formatação de Título",
+      "options": [
+        {
+          "value": "text-lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "text-uppercase",
+          "label": "UPPERCASE"
+        },
+        {
+          "value": "text-capitalize",
+          "label": "CapiTaliZed"
+        },
+        {
+          "value": "default",
+          "label": "sem formatação"
+        }
+      ],
+      "default": "text-lowercase"
     },
     {
       "type": "color_scheme",

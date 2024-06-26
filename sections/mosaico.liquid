@@ -1,0 +1,112 @@
+<div class="container-fluid g-0">
+  <div class="row g-0">
+    {% for i in (1..8) %}
+      <div class="col-6 col-md-3">
+        <div class="mosaic-image">
+          {% assign image_a_id = 'image' | append: i | append: 'a' %}
+          {% assign image_b_id = 'image' | append: i | append: 'b' %}
+
+          {% if section.settings[image_a_id] %}
+            <img src="{{ section.settings[image_a_id] | img_url: 'master' }}" alt="Image {{ i }}A" class="primary">
+          {% endif %}
+          {% if section.settings[image_b_id] %}
+            <img src="{{ section.settings[image_b_id] | img_url: 'master' }}" alt="Image {{ i }}B" class="secondary">
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Mosaic - 2 imagens",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1a",
+      "label": "Imagem 1A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1b",
+      "label": "Imagem 1B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2a",
+      "label": "Imagem 2A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2b",
+      "label": "Imagem 2B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3a",
+      "label": "Imagem 3A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3b",
+      "label": "Imagem 3B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4a",
+      "label": "Imagem 4A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4b",
+      "label": "Imagem 4B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5a",
+      "label": "Imagem 5A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5b",
+      "label": "Imagem 5B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6a",
+      "label": "Imagem 6A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6b",
+      "label": "Imagem 6B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image7a",
+      "label": "Imagem 7A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image7b",
+      "label": "Imagem 7B (Secundária)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image8a",
+      "label": "Imagem 8A (Principal)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image8b",
+      "label": "Imagem 8B (Secundária)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mosaic - 2 imagens"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,103 @@
+<div class="container-fluid g-0">
+  <div class="row g-0">
+    {% for block in section.blocks %}
+      <div class="{{ section.settings.mobile_columns }} {{ section.settings.desktop_columns }}">
+        <div class="mosaic-product" style="position: relative;">
+          {% assign product = all_products[block.settings.product] %}
+          <a href="{{ product.url }}">
+            <div class="product-box">
+              {% if block.settings.custom_image %}
+                <img
+                  src="{{ block.settings.custom_image | image_url }}"
+                  alt="{{ block.settings.custom_title | escape }}"
+                  width="600"
+                  height="600"
+                >
+              {% else %}
+                <img
+                  src="{{ product.featured_media | image_url  }}"
+                  alt="{{ product.title }}"
+                  width="600"
+                  height="600"
+                >
+              {% endif %}
+              <div class="overlay">
+                {% if block.settings.custom_title and block.settings.product_title_hidden != true %}
+                  <h4 class="fs-2">{{ block.settings.custom_title | default: product.title }}</h4>
+                {% elsif block.settings.custom_title and block.settings.product_title_hidden != true %}
+                  <h4 class="fs-2">{{ block.settings.custom_title | default: product.title }}</h4>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Mosaic Produtos",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "desktop_columns",
+      "label": "Colunas para Desktop",
+      "options": [
+        { "value": "col-md-6", "label": "2 Colunas" },
+        { "value": "col-md-4", "label": "3 Colunas" },
+        { "value": "col-md-3", "label": "4 Colunas" },
+        { "value": "col-md-2", "label": "6 Colunas" }
+      ],
+      "default": "col-md-4"
+    },
+    {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Colunas para Mobile",
+      "options": [
+        { "value": "col-6", "label": "2 Colunas" },
+        { "value": "col-12", "label": "1 Coluna" }
+      ],
+      "default": "col-12"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Produto",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Selecionar Produto"
+        },
+        {
+          "type": "text",
+          "id": "custom_title",
+          "label": "Título Personalizado"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Imagem Personalizada"
+        },
+        {
+          "type": "checkbox",
+          "id": "product_title_hidden",
+          "label": "Ocultar título do produto"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mosaic Produtos",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}

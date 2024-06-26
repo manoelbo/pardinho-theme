@@ -1,0 +1,139 @@
+<div class="container lista my-5 py-5">
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-12">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <h2 class="{{ block.settings.title_font }} fs-{{ section.settings.title_size }}">
+              {{ block.settings.title }}
+            </h2>
+            <h3 class="header-font-2 fs-{{ section.settings.subtitle_size }}">{{ block.settings.subtitle }}</h3>
+          </div>
+          <div class="col-md-4 offset-md-1 fs-{{ section.settings.text_size }} ">
+            {{ block.settings.text }}
+          </div>
+          <div class="col-md-3 offset-md-1 d-flex align-items-center ">
+            <a href="{{ block.settings.cta_link }}" class="text-black">{{ block.settings.cta_text }}</a>
+          </div>
+        </div>
+      </div>
+      {% if block.settings.hide_divider != true %}
+        <hr class="my-4">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Sessão Lista",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Configurações da Lista"
+    },
+    {
+      "type": "select",
+      "id": "title_font",
+      "label": "Tipo de Fonte do Título",
+      "options": [
+        {
+          "value": "header-font-1",
+          "label": "Fonte A"
+        },
+        {
+          "value": "header-font-2",
+          "label": "Fonte B"
+        }
+      ],
+      "default": "header-font-1"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Tamanho da Fonte (Título)",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_size",
+      "label": "Tamanho da Fonte (Subtítulo)",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Tamanho da Fonte (Texto)",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" }
+      ],
+      "default": "4"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "list_item",
+      "name": "Item da Lista",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtítulo"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Texto"
+        },
+        {
+          "type": "text",
+          "id": "cta_text",
+          "label": "Texto do Call to Action"
+        },
+        {
+          "type": "url",
+          "id": "cta_link",
+          "label": "Link do Call to Action"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_divider",
+          "label": "Ocultar Divisor"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sessão Lista",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

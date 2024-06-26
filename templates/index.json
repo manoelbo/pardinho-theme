@@ -101,8 +101,8 @@
         "botao_jQyKjw": {
           "type": "botao",
           "settings": {
-            "button_text": "Saiba Mais",
-            "button_url": "",
+            "button_text": "Sobre a Pardinho",
+            "button_url": "shopify:\/\/pages\/sobre",
             "margin_button": "my-1"
           }
         },

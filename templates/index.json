@@ -156,6 +156,24 @@
     "mosaico_product_cDiAeA": {
       "type": "mosaico-product",
       "blocks": {
+        "product_7P6mNf": {
+          "type": "product",
+          "settings": {
+            "product": "bacon-porco-real",
+            "custom_title": "Experiência Pardinho",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_chrV9H": {
+          "type": "product",
+          "settings": {
+            "product": "bacon-porco-real",
+            "custom_title": "",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
+            "product_title_hidden": true
+          }
+        },
         "product_FEh4fj": {
           "type": "product",
           "settings": {
@@ -209,35 +227,17 @@
             "custom_image": "shopify:\/\/shop_images\/bd21df_3bef12d2863040509875b355cd8d8c4e_mv2.webp",
             "product_title_hidden": false
           }
-        },
-        "product_7P6mNf": {
-          "type": "product",
-          "settings": {
-            "product": "bacon-porco-real",
-            "custom_title": "Experiência Pardinho",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
-            "product_title_hidden": false
-          }
-        },
-        "product_chrV9H": {
-          "type": "product",
-          "settings": {
-            "product": "bacon-porco-real",
-            "custom_title": "",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
-            "product_title_hidden": true
-          }
         }
       },
       "block_order": [
+        "product_7P6mNf",
+        "product_chrV9H",
         "product_FEh4fj",
         "product_hqt3yM",
         "product_RLWTyb",
         "product_8wJbPj",
         "product_Bi8Mne",
-        "product_N8A6t7",
-        "product_7P6mNf",
-        "product_chrV9H"
+        "product_N8A6t7"
       ],
       "settings": {
         "desktop_columns": "col-md-3",
@@ -291,6 +291,65 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "lista_zUtbNd": {
+      "type": "lista",
+      "blocks": {
+        "list_item_PMyMML": {
+          "type": "list_item",
+          "settings": {
+            "title": "Cuesta + single fin",
+            "subtitle": "20.30",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa.<\/p>",
+            "cta_text": "LER MAIS",
+            "cta_link": "",
+            "hide_divider": false
+          }
+        }
+      },
+      "block_order": [
+        "list_item_PMyMML"
+      ],
+      "settings": {
+        "title_font": "header-font-1",
+        "title_size": "1",
+        "subtitle_size": "3",
+        "text_size": "4"
+      }
+    },
+    "newsletter_Y4kaLw": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_LVLx9m": {
+          "type": "heading",
+          "settings": {
+            "heading": "Assine nossos e-mails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_8J443L": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Seja a primeira pessoa a saber sobre novas coleções e ofertas exclusivas.<\/p>"
+          }
+        },
+        "email_form_CEWPk7": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVLx9m",
+        "paragraph_8J443L",
+        "email_form_CEWPk7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -298,6 +357,8 @@
     "mosaico_3Kxxa9",
     "conteudo_6nFyky",
     "mosaico_product_cDiAeA",
-    "image_banner_hdkyRG"
+    "image_banner_hdkyRG",
+    "lista_zUtbNd",
+    "newsletter_Y4kaLw"
   ]
 }

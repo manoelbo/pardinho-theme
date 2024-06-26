@@ -38,8 +38,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown",
-            "swatch_shape": "circle"
+            "picker_type": "button",
+            "swatch_shape": "none"
           }
         },
         "quantity_selector": {
@@ -143,6 +143,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "text_case": "text-lowercase",
         "color_scheme": "",
         "media_size": "small",
         "constrain_to_viewport": true,

@@ -1,0 +1,331 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_n8ahXk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_3YNzdQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "De onde vem o queijo?",
+            "heading_size": "h1"
+          }
+        },
+        "text_XLgztJ": {
+          "type": "text",
+          "settings": {
+            "text": "Das especificidades da terra, onde cresce o pasto que alimentam as vacas, até a apresentação do produto na mesa de um restaurante estrelado.Entenda as diferentes posturas da Pardinho ao assumir os três pilares da produção de queijos: Produção de Leite, Produção do Queijo e Maturação.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3YNzdQ",
+        "text_XLgztJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_AgydwA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_86MgFV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Animais",
+            "heading_size": "h1"
+          }
+        },
+        "text_cywaqC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A história da Pardinho Artesanal tem suas raízes firmemente estabelecidas na Fazenda Sant'Anna, uma referência no segmento pecuário, celebrando seu 50º aniversário em 2024. A criação e produção dos irreproduzíveis Queijos Pardinho tornaram-se viáveis como consequência de um projeto anterior, de maneira espontânea, criou-se o cenário propício para o nascimento da Pardinho Artesanal.<\/p><p>​<\/p><p>A Fazenda Sant'Anna, também situada em Pardinho - SP, destacou-se como pioneira na formação da raça Brangus no Sudeste e Centro-Oeste do Brasil, buscando tornar a raça mais adaptada às condições tropicais. Essa conquista foi possível devido à forte base zebuína e à seleção contínua das raças. No final dos anos 90, percebendo a necessidade de inovação no mercado de coleta de sêmen, fundou a Central Bela Vista, desempenhando um papel crucial nas pesquisas que visavam desvendar o genoma da raça Nelore. Posteriormente, a fazenda tornou-se uma das primeiras propriedades rurais do mundo a ser certificada pela ISO 14001 de gestão ambiental.<\/p><p>​<\/p><p>Com uma sólida base genética de animais da raça Gir, aliada ao conhecimento proveniente dos projetos da Fazenda Sant'Anna e Central Bela Vista, surge a Pardinho Artesanal. Com uma compreensão profunda de toda a cadeia do setor, naturalmente desencadeia-se a percepção de que o leite dessa raça apresentava um sabor único. Em 2014, dá-se início ao projeto do laticínio Pardinho Artesanal, que, por meio de processos singulares e a busca por criar queijos de sabores complexos e autênticos e legitimamente brasileiros, desenvolve após extensos testes o seu primeiro queijo: Cuesta, feito a partir do leite cru das vacas Gir Pardinho.<\/p><p>​<\/p><p>O queijo Cuesta marcou o início inovador da produção com leite cru de vacas Gir Pardinho, algo pouco comum para queijos no Brasil. A resistência natural da raça Gir a doenças e sua adaptação a climas tropicais promovem a sustentabilidade e o bem-estar animal. A produção com leite cru é incomum no Brasil, onde a maioria dos produtos lácteos é feita a partir de leite pasteurizado, muitas vezes adquirido de terceiros. Vale ressaltar que a Pardinho Artesanal se diferencia ao possuir um rebanho próprio, assegurando a qualidade desde a origem do leite. As vantagens incluem a preservação de componentes naturais que contribuem para o sabor e complexidade do queijo, refletindo as características únicas do terroir de Pardinho. A pasteurização, ao contrário, reduz a diversidade de sabores. A Pardinho Artesanal também assegura a qualidade por meio de rigorosas políticas de segurança do alimento, atestado através do S.I.F. (Serviço de Inspeção Federal).<\/p><p>​<\/p><p>Desde então, ao Cuesta somaram-se outros queijos: Mandala, Mandalinha, Cuestinha e CuestAzul. Ao longo da trajetória da Pardinho Artesanal, a inovação permaneceu como um valor indispensável. Dessa forma, surgiu um novo cruzamento de raças que resultou em uma nova matéria-prima: o leite de vacas Girsey. A Girsey é fruto do cruzamento da zebuína Gir Pardinho, raça originária da Índia, com a taurina Jersey, originária das Ilhas Jersey (Inglaterra). Essa inovação introduziu de forma inédita o uso do leite cru dessa raça no mercado de produção de queijo. A Girsey combina benefícios, como melhor adaptação ao clima tropical e, consequentemente, bem-estar animal. Isso possibilita a obtenção de um leite com alto teor de gordura e proteína, agregando sabor, valor nutricional superior e maior produtividade. <\/p><p>Ao ampliar a variedade de queijos com a introdução da Girsey, a Pardinho Artesanal reforça seu compromisso contínuo com a inovação e a busca pela excelência na produção de queijos autênticos e de qualidade<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_86MgFV",
+        "text_cywaqC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03978_edited.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_WdFhik": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nqt39k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leite cru",
+            "heading_size": "h1"
+          }
+        },
+        "text_UjJHYN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Todos os nossos queijos são fabricados a partir de leite cru, em sua forma mais pura sem nenhum processamento ou pasteurização. Isso permite que a flora presente no leite se mantenha viva, trazendo complexidade e sabor aos queijos.<\/p><p> <\/p><p>O uso desta matéria prima requer muito cuidado, por isso contamos com um protocolo diário de análises em nosso laboratório, sendo um dos primeiros laticínios artesanais aprovados pelo MAPA para o trabalho com leite cru. E atualmente ainda o único do mercado trabalhando somente com leite cru, com leite próprio e receitas de tecnologias complexas e maturação longa.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nqt39k",
+        "text_UjJHYN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC04335_edited.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nEeKzY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AweFpi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terroir",
+            "heading_size": "h1"
+          }
+        },
+        "text_yCDqeW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Certamente você já leu ou ouviu a palavra Terroir no que diz respeito à produção agrícola.<\/p><p>Trata-se de um termo francês que descreve a interação única entre o ambiente natural de uma região e as características dos produtos ali produzidos. Esta interação envolve uma combinação complexa de fatores naturais, abrangendo solo, clima, topografia e condições meteorológicas específicas da região, além de técnicas de cultivo. <\/p><p>Localizada no município de Pardinho, a fazenda está a 960m de altitude, reunindo condições climáticas, ambientais e forma de produção particulares que desenvolvem um cenário microclimático e microbiológico singular para a nossa produção. Metade de sua área é destinada à preservação de mata nativa, já a outra dá espaço às pastagens que alimentam o gado Gir criados livres. O método de manejo adotado é o responsável tanto por imprimir características do lugar e do animal em nosso leite, como pelo bem-estar de nossos animais, ambos fundamentais para a qualidade de nossos produtos e maximizar as influências do terroir.<\/p><p>As Cuestas - paisagens que criam um terreno ondulado e peculiar, influenciam circulação de ar, temperatura e umidade, enquanto a Serra de Botucatu age como barreira natural na região. <\/p><p>Na região subtropical úmida de Pardinho, contamos com solos variados, arenosos, argilosos ou calcários que coexistem, influenciando a fertilidade e a capacidade da região para diferentes cultivos. <\/p><p>Esses elementos singulares e suas interações naturais e sociais contribuem para a complexidade e autenticidade dos nossos queijos tropicais, tornando-os irreproduzíveis. <\/p><p>A Fazenda Sant'Anna, também situada em Pardinho - SP, destacou-se como pioneira na formação da raça Brangus no Sudeste e Centro-Oeste do Brasil, buscando tornar a raça mais adaptada às condições tropicais. Essa conquista foi possível devido à forte base zebuína e à seleção contínua das raças. No final dos anos 90, percebendo a necessidade de inovação no mercado de coleta de sêmen, fundou a Central Bela Vista, desempenhando um papel crucial nas pesquisas que visavam desvendar o genoma da raça Nelore. Posteriormente, a fazenda tornou-se uma das primeiras propriedades rurais do mundo a ser certificada pela ISO 14001 de gestão ambiental.<\/p><p>Com uma sólida base genética de animais da raça Gir, aliada ao conhecimento proveniente dos projetos da Fazenda Sant'Anna e Central Bela Vista, surge a Pardinho Artesanal. Com uma compreensão profunda de toda a cadeia do setor, naturalmente desencadeia-se a percepção de que o leite dessa raça apresentava um sabor único. Em 2014, dá-se início ao projeto do laticínio Pardinho Artesanal, que, por meio de processos singulares e a busca por criar queijos de sabores complexos e autênticos e legitimamente brasileiros, desenvolve após extensos testes o seu primeiro queijo: Cuesta, feito a partir do leite cru das vacas Gir Pardinho.<\/p><p>O queijo Cuesta marcou o início inovador da produção com leite cru de vacas Gir Pardinho, algo pouco comum para queijos no Brasil. A resistência natural da raça Gir a doenças e sua adaptação a climas tropicais promovem a sustentabilidade e o bem-estar animal. A produção com leite cru é incomum no Brasil, onde a maioria dos produtos lácteos é feita a partir de leite pasteurizado, muitas vezes adquirido de terceiros. Vale ressaltar que a Pardinho Artesanal se diferencia ao possuir um rebanho próprio, assegurando a qualidade desde a origem do leite. As vantagens incluem a preservação de componentes naturais que contribuem para o sabor e complexidade do queijo, refletindo as características únicas do terroir de Pardinho. A pasteurização, ao contrário, reduz a diversidade de sabores. A Pardinho Artesanal também assegura a qualidade por meio de rigorosas políticas de segurança do alimento, atestado através do S.I.F. (Serviço de Inspeção Federal).<\/p><p>​<\/p><p>Desde então, ao Cuesta somaram-se outros queijos: Mandala, Mandalinha, Cuestinha e CuestAzul. Ao longo da trajetória da Pardinho Artesanal, a inovação permaneceu como um valor indispensável. Dessa forma, surgiu um novo cruzamento de raças que resultou em uma nova matéria-prima: o leite de vacas Girsey. A Girsey é fruto do cruzamento da zebuína Gir Pardinho, raça originária da Índia, com a taurina Jersey, originária das Ilhas Jersey (Inglaterra). Essa inovação introduziu de forma inédita o uso do leite cru dessa raça no mercado de produção de queijo. A Girsey combina benefícios, como melhor adaptação ao clima tropical e, consequentemente, bem-estar animal. Isso possibilita a obtenção de um leite com alto teor de gordura e proteína, agregando sabor, valor nutricional superior e maior produtividade. <\/p><p>Ao ampliar a variedade de queijos com a introdução da Girsey, a Pardinho Artesanal reforça seu compromisso contínuo com a inovação e a busca pela excelência na produção de queijos autênticos e de qualidade<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AweFpi",
+        "text_yCDqeW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gaAj8A": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_c74eD8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Produção e Maturação",
+            "heading_size": "h1"
+          }
+        },
+        "text_UUtMmm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No laticínio, tudo é feito com a atuação direta de nossos artesãos. O leite que chega vai para tachos de cobre, reformados de uma antiga produção francesa em Comtè, neles são aquecidos, adicionadas as culturas e cortados. São enformados manualmente, um por um, e seguem para última etapa, a afinação. <\/p><p>As caves de maturação foram montadas com base nas mais avançadas tecnologias, como controle de temperatura, umidade e reposição de gases. Elas são palco do processo final que pode durar até 12 meses para os nossos queijos e são fundamentais para dar as características próprias de cada um deles. <\/p><p> <\/p><p>A nossa produção de queijo é um processo intricado que combina habilidade artesanal e tecnologia para criar um produto final único. No início deste processo, o leite cru fresco, oriundo de vacas criadas a pasto, é cuidadosamente preparado. Os artesãos realizam cada etapa com precisão. O leite é aquecido em tachos de cobre, onde são adicionadas culturas e o coalho é formado. Este é então cortado e enformado manualmente, permitindo que cada queijo receba atenção individual.<\/p><p>​<\/p><p>A etapa de enformagem desempenha um papel crucial na determinação das características do queijo. A textura, sabor e formato são moldados durante essa fase, onde cada queijo recebe atenção individualizada. Enquanto a indústria de laticínios moderna utiliza métodos mecanizados visando a padronização, a produção artesanal valoriza a sensibilidade e experiência do queijeiro, permitindo pequenas variações que adicionam caráter ao produto final.<\/p><p>​<\/p><p>Após a enformagem, os queijos passam por alguns processos de descanso, de prensagem até o processo de salga, onde são cuidadosamente salgados para realçar o sabor e promover a preservação. Esta etapa é essencial para o desenvolvimento das características de cada queijo.<\/p><p>Em seguida, os queijos são transferidos para as caves de maturação, onde começam sua jornada de transformação. Estas caves são cuidadosamente controladas em termos de temperatura e umidade, proporcionando um ambiente ideal para o desenvolvimento dos queijos. Aqui, eles podem permanecer por até 18 meses, adquirindo suas características únicas ao longo do tempo.<\/p><p> <\/p><p>Um elemento interessante na nossa maturação do queijo é o uso de madeira. As propriedades absorventes da madeira permitem um intercâmbio hídrico entre o queijo, a madeira e o ambiente das caves, contribuindo para uma distribuição equilibrada da umidade e favorecendo interações benéficas. No entanto, o uso de madeira requer cuidados rigorosos e controles microbiológicos para evitar contaminações indesejadas.<\/p><p>Durante o processo de maturação, os queijos desenvolvem uma \"flora do queijo\" na superfície, composta por microrganismos que contribuem para o aroma e sabor característicos. Essa flora é parte integrante do processo de transformação do queijo e é cuidadosamente gerenciada para garantir a qualidade final do produto.<\/p><p> <\/p><p>Um aspecto específico da maturação do queijo Mandala e Mandalinha é a técnica de casca lavada, onde os queijos são esfregados com uma solução salina para promover o crescimento de uma microbiota específica. Essa prática resulta em uma casca alaranjada e aroma característico, adicionando complexidade ao sabor do queijo.<\/p><p>​<\/p><p>Além da arte e tradição envolvidas na produção de queijo, há também uma forte ênfase na ciência, tecnologia e inovação. O controle de qualidade é uma prioridade em todas as etapas do processo, desde a saúde dos animais até a análise físico-química e microbiológica dos queijos. Cada lote é cuidadosamente documentado, permitindo rastreabilidade completa do produto final.<\/p><p> <\/p><p>Em resumo, o processo de produção e maturação de queijo é uma combinação harmoniosa de arte, tecnologia e conhecimento, resultando em um produto final rico em sabor e qualidade.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_c74eD8",
+        "text_UUtMmm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cuesta_Maturacao_edited.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_C4cxin": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rUTifj": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Termo por um lado já está desgastado, por outro lado nunca esteve tão atual. Tema deixou de ser pauta e já se tornou prática em países europeus, porém o Brasil ainda está engatinhando diante da complexidade do assunto e da profundidade do problema. <\/p><p>O queijo da Pardinho está ancorado em pontos ecológicos substanciais para seu nível de excelência como todo manejo de vacas criadas a pasto, leite cru e terroir. Sustentabilidade não se tornou uma meta, mas é o ponto de partida para o projeto da Pardinho. <\/p><p>A Certificação ISO 14001 é uma norma internacional que estabelece diretrizes para sistemas de gestão ambiental (SGA) eficazes em organizações. Desenvolvida pela International Organization for Standardization (ISO), ela fornece um modelo para empresas e instituições implementarem práticas que reduzam o impacto ambiental de suas operações, promovendo a sustentabilidade e o desenvolvimento sustentável.<\/p><p>Basicamente, a ISO 14001 estabelece requisitos para que uma organização possa:<\/p><p>​<\/p><ul><li>Identificar e controlar os impactos ambientais de suas atividades, produtos ou serviços;<\/li><li>Melhorar continuamente seu desempenho ambiental;<\/li><li>Atender às leis e regulamentos ambientais aplicáveis;<\/li><li>Demonstrar compromisso com a proteção do meio ambiente <\/li><\/ul><p> <\/p><p>Os criteriosos processos de Pardinho Artesanal ao fazer queijo levam a pensar em toda a cadeia correlacionada. A fazenda contempla a certificação ISO 14001 desde 2001, sendo uma das primeiras fazendas do Brasil a conquista-la.<\/p><p>Cada metro quadrado da superfície terrestre recebe, em horários de pico, mais energia por hora do que a população mundial consome em um ano. No ano de 2020 a fazenda elaborou toda uma reestruturação energética, instalando 654 placas de painéis fotovoltaicos, passando adquirir autossuficiência de toda energia consumida na fazenda e ainda gerando excedente de produção de uma energia limpa, renovável, alternativa e sustentável, que é injetada na rede de distribuição da cidade. Economia e cuidados com energia englobam a certificação sócio-ambiental ISO 14001.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TGqcMT": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>A reutilização de água também é uma das medidas que englobam a certificação. A prática de um manejo sanitário rigoroso na sala de ordenha demanda uma elevada litragem de água. As ordenhas são feitas duas vezes por dia acompanhadas de higienização imediata, onde todo o espaço é desenhado para o escoamento adequado e captação da água utilizada. Através de bombas, essa água é conduzida para um separador de sólidos que retiram basicamente esterco das vacas e pequenos pedaços de terra. Esses sólidos serão secados e misturados a restos de jardinagem, como folhas e galhos podados e vão para compostagem, o último tratamento biológico antes de voltarem para o pasto na forma de adubo. A parte líquida segue para lagoas de decantação e iniciam um processo chamado biofertilização, método similar ao utilizado no tratamento de esgotos domésticos, que associa a decantação e filtragem da água em lagoas. Esse processo é considerado ecologicamente correto, pois dá destino adequado à água utilizada, sem causar a contaminação do lençol freático. Todo esse líquido tratado e fertilizado volta à terra em forma de fertirrigação, que é a técnica de aplicar fertilizantes via água de irrigação. A utilização do biofertilizante nesse processo é uma prática que favorece o meio ambiente, eleva a sustentabilidade dos sistemas agrícolas e melhora a qualidade do solo.<\/p><p>​<\/p><p>Toda produção que envolve transformações gera outros componentes que acabam muitas vezes sendo considerados como resíduos. No caso da produção de queijo, a parte líquida do leite é desprezada. Por coagulação da caseína (principal proteína do leite), alguns elementos como a água, a lactose e nutrientes se separam e uma parte dessa solução é desprezada. Essa solução aquosa, turva e esbranquiçada, riquíssima em nutrientes, se chama Soro. O Soro apresenta uma grande concentração em matéria orgânica, cerca de cem vezes maior que a do esgoto doméstico. Matéria orgânica em excesso pode comprometer a estrutura físico-química do solo, exige uma elevada quantidade de oxigênio para ser oxidada naturalmente por bactérias, tornando o soro do leite um poluente líquido que pode acarretar graves problemas ambientais com sua destinação incorreta. O seu tratamento por meio de métodos convencionais de tratamento biológico também não é tarefa fácil. Mas nosso compromisso com o meio ambiente não poderia desprezar a atenção para esse problema. Conseguimos um destino ecologicamente positivo para este subproduto e ainda desenvolvemos um projeto paralelo à produção de queijos. Aproveitando seu alto valor nutritivo, destinamos aos porcos bebês, após o desmame, soro de leite integral derivado de nossas vacas criadas soltas, sem antibióticos, alimentadas a pasto. O alimento apresenta ótima palatabilidade, os porquinhos adoram, consomem volumes incríveis, e transformam o que seria resíduo da produção em um banquete altamente nutritivo com digestibilidade da proteína superior à do milho e à do farelo de soja. Hoje o projeto visa, além de um destino positivo do soro, produzir uma carne única de maior suculência, marmoreio e maciez somado ao resgate de linhagens suínas brasileiras, descendentes de raças ibéricas, raramente encontradas no mercado. O resultado é um produto singular, delicioso e ecológico! A condução ecológica dos resíduos da produção é mais uma das medidas que englobam a certificação sócio-ambiente ISO 14001, no qual a fazenda contempla a mais de vinte anos.<\/p><p> <\/p><p>Todo resíduo que vai pra lata de lixo da fazenda, de papéis de anotação do escritório até resíduos da panela no refeitório, ou eventuais seringas de vitaminas para os bezerros, são cuidadosamente separados de acordo com o tipo de lixo e destino futuro. <\/p><p>Por isso, para facilitar esse trabalho, toda a área de convívio, produção, moradia e passagem da fazenda é provida de lixeiras ecológicas. <\/p><p>Os reciclados são entregues semanalmente para a Cooperativa dos Catadores de Reciclados da Cidade de Pardinho, onde eles aproveitam o material e dão o destino devido para cada um. <\/p><p>O lixo especial gerados na fazenda, como agulhas e seringas para eventual tratamento de algum animal ou vitamina para algum bezerro, são retirados em caixas próprias, por uma empresa especializada e seguem para o fim adequado. <\/p><p>O lixo comum da comunidade e das lixeiras ecológicas são recolhidos duas vezes por semana pela Prefeitura, que se encarrega do tratamento do mesmo. <\/p><p> <\/p><p>Energia limpa que seja renovável, alternativa e sustentável, destinação correta de resíduos e lixo, economia e tratamento de água, são algumas das medidas que englobam a certificação sócio-ambiente ISO 14001<\/p><p> <\/p><p>Queijo premiado e responsável ambiental e socialmente.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rUTifj",
+        "column_TGqcMT"
+      ],
+      "settings": {
+        "title": "Sustentabilidade",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_QECbKj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_c9jKrh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restaurantes",
+            "heading_size": "h1"
+          }
+        },
+        "text_hYhEkB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Casa do Porco<\/p><p>Esther<\/p><p>Enoteca Saint Vincent<\/p><p>Evvai<\/p><p>Arturito<\/p><p>Picchi <\/p><p>Barletta<\/p><p>Le Jazz<\/p><p>Piu<\/p><p>Charco<\/p><p>Bar dos Arcos<\/p><p>Borgo Mooca<\/p><p>Quincho<\/p><p>Nelita<\/p><p>Jiquitaia<\/p><p>Casa Braz Pizzeria<\/p><p>Tuju<\/p><p>Astor<\/p><p>Bar da Dona Onça<\/p><p>Casa de Francisca<\/p><p>Lolla Restaurante<\/p><p>Cuia Café <\/p><p>Cave 381<\/p><p>Crio Cafés<\/p><p>Dengo Chocolates<\/p><p>Piu Restaurante<\/p><p>Blue Note São Paulo<\/p><p>Sesc Av Paulista<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_c9jKrh",
+        "text_hYhEkB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/referencias___restaurantes_edited.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_chfwAW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GCrRFj": {
+          "type": "heading",
+          "settings": {
+            "heading": "NA MÍDIA",
+            "heading_size": "h1"
+          }
+        },
+        "text_xXhjBG": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><a href=\"https:\/\/youtu.be\/7kAnqTHZJXo?si=eVCKTBjMnaBmbO1D\" target=\"_blank\"><span style=\"text-decoration:underline\">Globo Rural<br\/><\/span><\/a><a href=\"https:\/\/g1.globo.com\/economia\/agronegocios\/agro-de-gente-pra-gente\/noticia\/2022\/12\/28\/gente-do-campo-medica-veterinaria-cria-queijos-e-se-torna-uma-das-100-mulheres-mais-poderosas-do-agro.ghtml?fbclid=IwAR36SJIBXF3a7mEYOlVmQf73hAFU7F852YXylqzKCv5rkYIu6nLBSNn_pJM_aem_Ac-dHA3xjr3jopNU17VubTIFAmsyZZwAFVdtnKbulmrztPk7D3WKG_N8zyYQOgtQYWk\" target=\"_blank\"><span style=\"text-decoration:underline\">G1<\/span><\/a><br\/><a href=\"https:\/\/g1.globo.com\/sp\/sorocaba-jundiai\/nosso-campo\/noticia\/2019\/07\/07\/queijo-de-pardinho-e-considerado-um-dos-melhores-do-mundo.ghtml\" target=\"_blank\"><span style=\"text-decoration:underline\">G1 (2)<\/span><\/a><br\/><a href=\"https:\/\/globoplay.globo.com\/v\/10813248\/\" target=\"_blank\"><span style=\"text-decoration:underline\">Mais Você<\/span><\/a><\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GCrRFj",
+        "text_xXhjBG"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_n8ahXk",
+    "image_with_text_AgydwA",
+    "image_with_text_WdFhik",
+    "image_with_text_nEeKzY",
+    "image_with_text_gaAj8A",
+    "multicolumn_C4cxin",
+    "image_with_text_QECbKj",
+    "rich_text_chfwAW"
+  ]
+}

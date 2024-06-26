@@ -33,58 +33,25 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_8NXJfG": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_RffgBx": {
-          "type": "column",
-          "settings": {
-            "title": "Natural, tecnológico, artesanal.",
-            "text": "<h4>Pardinho Artesanal, onde o sabor natural nasce do encontro da tecnologia com o artesanal.<\/h4><p>Localizada no município de Pardinho, a cerca de 200km da capital paulista, a fazenda está a 960m de altitude, reunindo condições climáticas e ambientais singulares. Metade de sua área é destinada à preservação de sua exuberante mata nativa, já a outra dá espaço às pastagens responsáveis pela alimentação do gado gir. Foi uma das primeiras fazendas do Brasil a obter certificação ISO 14001, de gestão ambiental.<\/p><p><\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6YVRUH": {
-          "type": "column",
-          "settings": {
-            "title": "Coluna",
-            "text": "<p>Combine um texto com uma imagem para destacar o produto, a coleção ou o post do blog escolhido. Adicione informações sobre disponibilidade, estilo ou até mesmo uma avaliação.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3qayyJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bacon_04.jpg",
-            "title": "Coluna",
-            "text": "<p>Combine um texto com uma imagem para destacar o produto, a coleção ou o post do blog escolhido. Adicione informações sobre disponibilidade, estilo ou até mesmo uma avaliação.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_RffgBx",
-        "column_6YVRUH",
-        "column_3qayyJ"
-      ],
+    "mosaico_3Kxxa9": {
+      "type": "mosaico",
       "settings": {
-        "title": "Várias colunas",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Etiqueta de botão",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image1a": "shopify:\/\/shop_images\/imagem7-1f.jpg",
+        "image1b": "shopify:\/\/shop_images\/imagem1-2.jpg",
+        "image2a": "shopify:\/\/shop_images\/imagem6-1f.jpg",
+        "image2b": "shopify:\/\/shop_images\/imagem3-2.jpg",
+        "image3a": "shopify:\/\/shop_images\/imagem2-1f.jpg",
+        "image3b": "shopify:\/\/shop_images\/imagem8-2.jpg",
+        "image4a": "shopify:\/\/shop_images\/imagem3-1f.jpg",
+        "image4b": "shopify:\/\/shop_images\/imagem6-2.jpg",
+        "image5a": "shopify:\/\/shop_images\/imagem8-1f_1.jpg",
+        "image5b": "shopify:\/\/shop_images\/imagem6-2.jpg",
+        "image6a": "shopify:\/\/shop_images\/imagem2-2.jpg",
+        "image6b": "shopify:\/\/shop_images\/imagem5-1f.jpg",
+        "image7a": "shopify:\/\/shop_images\/imagem1-1f.jpg",
+        "image7b": "shopify:\/\/shop_images\/imagem3-2.jpg",
+        "image8a": "shopify:\/\/shop_images\/imagem5-2.jpg",
+        "image8b": "shopify:\/\/shop_images\/imagem5-1f.jpg"
       }
     },
     "image_banner_hdkyRG": {
@@ -138,7 +105,7 @@
   },
   "order": [
     "collage_XjrDzU",
-    "multicolumn_8NXJfG",
+    "mosaico_3Kxxa9",
     "image_banner_hdkyRG"
   ]
 }

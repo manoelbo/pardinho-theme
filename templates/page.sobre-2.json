@@ -61,7 +61,7 @@
           "settings": {
             "src": "shopify:\/\/shop_images\/DSC03978_edited.webp",
             "width": "w-100 h-auto",
-            "margin_image": "my-1"
+            "margin_image": "my-5"
           }
         },
         "title2_DtEfER": {
@@ -70,7 +70,7 @@
             "font_style2": "header-font-1",
             "title_size2": "lll",
             "title_text2": "Animais",
-            "margin_title2": "my-1"
+            "margin_title2": "my-5"
           }
         },
         "richtext2_pfj6bU": {
@@ -97,11 +97,56 @@
         "show_divider_top": false,
         "show_divider_bottom": true
       }
+    },
+    "conteudo_eydEE4": {
+      "type": "conteudo",
+      "blocks": {
+        "title_PnYFHz": {
+          "type": "title",
+          "settings": {
+            "font_style": "header-font-1",
+            "title_size": "lll",
+            "title_text": "Leite cru",
+            "margin_title": "my-5"
+          }
+        },
+        "richtext_igXhmf": {
+          "type": "richtext",
+          "settings": {
+            "text_size": "1",
+            "rich_text": "<p>Todos os nossos queijos são fabricados a partir de leite cru, em sua forma mais pura sem nenhum processamento ou pasteurização. Isso permite que a flora presente no leite se mantenha viva, trazendo complexidade e sabor aos queijos.<\/p><p> <\/p><p>O uso desta matéria prima requer muito cuidado, por isso contamos com um protocolo diário de análises em nosso laboratório, sendo um dos primeiros laticínios artesanais aprovados pelo MAPA para o trabalho com leite cru. E atualmente ainda o único do mercado trabalhando somente com leite cru, com leite próprio e receitas de tecnologias complexas e maturação longa.<\/p>",
+            "margin_text": "my-1"
+          }
+        },
+        "image_picker2_VWNj7d": {
+          "type": "image_picker2",
+          "settings": {
+            "width2": "w-auto h-auto",
+            "margin_image2": "my-1"
+          }
+        }
+      },
+      "block_order": [
+        "title_PnYFHz",
+        "richtext_igXhmf",
+        "image_picker2_VWNj7d"
+      ],
+      "settings": {
+        "layout_columns": "double",
+        "container": "container",
+        "alignment_col1": "start",
+        "alignment_col2": "start",
+        "offset_col1": "offset-0",
+        "offset_col2": "offset-lg-2 offset-md-1",
+        "show_divider_top": false,
+        "show_divider_bottom": true
+      }
     }
   },
   "order": [
     "main",
     "image_banner_n8ahXk",
-    "conteudo_bPn8Pa"
+    "conteudo_bPn8Pa",
+    "conteudo_eydEE4"
   ]
 }

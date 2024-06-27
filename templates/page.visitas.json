@@ -74,11 +74,37 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "lista_LFtCAG": {
+      "type": "lista",
+      "blocks": {
+        "list_item_mRhVVP": {
+          "type": "list_item",
+          "settings": {
+            "title": "Vista Guiada",
+            "subtitle": "Sábado e Domingo (9h às 20h)",
+            "text": "<p>Conheça a produção dos queijos Pardinho mais de perto. Essa visita guiada pelos nossos especialistas vai lhe mostrar de perto alguma das etapas da nossa produção. Essa visita é feita sob agendamento. Agende agora aqui abaixo.<\/p>",
+            "cta_text": "Agende Agora",
+            "cta_link": "",
+            "hide_divider": true
+          }
+        }
+      },
+      "block_order": [
+        "list_item_mRhVVP"
+      ],
+      "settings": {
+        "title_font": "header-font-1",
+        "title_size": "1",
+        "subtitle_size": "3",
+        "text_size": "4"
+      }
     }
   },
   "order": [
     "main",
     "image_banner_n8ahXk",
-    "rich_text_chfwAW"
+    "rich_text_chfwAW",
+    "lista_LFtCAG"
   ]
 }

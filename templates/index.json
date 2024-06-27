@@ -156,24 +156,6 @@
     "mosaico_product_cDiAeA": {
       "type": "mosaico-product",
       "blocks": {
-        "product_7P6mNf": {
-          "type": "product",
-          "settings": {
-            "product": "queijo-cuesta-azul-pardinho-artesanal",
-            "custom_title": "Experiência Pardinho",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
-            "product_title_hidden": false
-          }
-        },
-        "product_chrV9H": {
-          "type": "product",
-          "settings": {
-            "product": "bacon-porco-real",
-            "custom_title": "",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
-            "product_title_hidden": true
-          }
-        },
         "product_FEh4fj": {
           "type": "product",
           "settings": {
@@ -227,17 +209,35 @@
             "custom_image": "shopify:\/\/shop_images\/bd21df_3bef12d2863040509875b355cd8d8c4e_mv2.webp",
             "product_title_hidden": false
           }
+        },
+        "product_7P6mNf": {
+          "type": "product",
+          "settings": {
+            "product": "queijo-cuesta-azul-pardinho-artesanal",
+            "custom_title": "Experiência Pardinho",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_chrV9H": {
+          "type": "product",
+          "settings": {
+            "product": "bacon-porco-real",
+            "custom_title": "",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
+            "product_title_hidden": true
+          }
         }
       },
       "block_order": [
-        "product_7P6mNf",
-        "product_chrV9H",
         "product_FEh4fj",
         "product_hqt3yM",
         "product_RLWTyb",
         "product_8wJbPj",
         "product_Bi8Mne",
-        "product_N8A6t7"
+        "product_N8A6t7",
+        "product_7P6mNf",
+        "product_chrV9H"
       ],
       "settings": {
         "desktop_columns": "col-md-3",

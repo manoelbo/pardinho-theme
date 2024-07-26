@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Conservação e corte",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.conservacao | metafield_tag }}",
             "page": ""
           }
         },
@@ -122,7 +122,7 @@
           "settings": {
             "heading": "Informações comerciais",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.informa_es_comerciais | metafield_tag }}",
             "page": ""
           }
         },

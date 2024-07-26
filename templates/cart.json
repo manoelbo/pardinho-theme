@@ -40,10 +40,101 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "mosaico_product_VbfXWJ": {
+      "type": "mosaico-product",
+      "blocks": {
+        "product_BCwk7w": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Custazul",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_dfe5f6425dca4b6b80d4e2b7d6a4a297_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_CRF8Gi": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Custinha",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_da6ff778d3a84eec9ca88caa867ed9eb_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_GLmmHr": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Mandala",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_3bef12d2863040509875b355cd8d8c4e_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_gQQWz6": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Mandalinha",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_b67377b9a98d4719b81176a210aaea5b_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_K437C9": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Cuesta",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_c83bc94bc00148f0abee586b56aec925_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_q7p4tL": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "Experiência Pardinho",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_qReVBN": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_nPDJq8": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
+            "product_title_hidden": false
+          }
+        }
+      },
+      "block_order": [
+        "product_BCwk7w",
+        "product_CRF8Gi",
+        "product_GLmmHr",
+        "product_gQQWz6",
+        "product_K437C9",
+        "product_q7p4tL",
+        "product_qReVBN",
+        "product_nPDJq8"
+      ],
+      "settings": {
+        "desktop_columns": "col-md-3",
+        "mobile_columns": "col-12"
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "mosaico_product_VbfXWJ"
   ]
 }

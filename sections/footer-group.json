@@ -24,8 +24,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "<strong>Loja PARDINHO <\/strong>",
-            "subtext": "<p>Rodovia Municipal Constantino Pauletti, km 6<\/p><p>Pardinho - São Paulo<\/p><p>Sextas, sábados, domingos e feriados - das 9h às 18h<\/p><p><a href=\"mailto:contato@pardinhoartesanal.com.br\">contato@pardinhoartesanal.com.br<\/a><\/p>"
+            "heading": "",
+            "subtext": ""
           }
         }
       },

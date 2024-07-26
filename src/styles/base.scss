@@ -153,6 +153,9 @@ main {
   color: black;
 }
 
+variant-selects {
+  min-height: 74px;
+}
 
 .product__description p, .product__description span {
   //font-size: calc(1.3rem + 0.6vw) !important;

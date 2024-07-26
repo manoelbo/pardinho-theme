@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Premiações",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.premiacao | metafield_tag }}",
             "page": ""
           }
         },

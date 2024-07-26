@@ -85,7 +85,7 @@
           "settings": {
             "product": "cuestazul",
             "custom_title": "Cuesta",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_c83bc94bc00148f0abee586b56aec925_mv2.webp",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_50bfd6526c384f1cad1aeafce451378a_mv2.webp",
             "product_title_hidden": false
           }
         },
@@ -93,8 +93,8 @@
           "type": "product",
           "settings": {
             "product": "cuestazul",
-            "custom_title": "Experiência Pardinho",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
+            "custom_title": "Azul de Pardinho",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_c83bc94bc00148f0abee586b56aec925_mv2.webp",
             "product_title_hidden": false
           }
         },
@@ -102,7 +102,8 @@
           "type": "product",
           "settings": {
             "product": "cuestazul",
-            "custom_title": "",
+            "custom_title": "Experiência Pardinho",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_5418338860b74d839f59c45c004fd38e_mv2.webp",
             "product_title_hidden": false
           }
         },
@@ -112,7 +113,7 @@
             "product": "cuestazul",
             "custom_title": "",
             "custom_image": "shopify:\/\/shop_images\/bd21df_19742a074f49443c88e92089d25b4ade_mv2.webp",
-            "product_title_hidden": false
+            "product_title_hidden": true
           }
         }
       },

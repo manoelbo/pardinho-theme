@@ -68,7 +68,7 @@
         "depoimento_FFhUnx": {
           "type": "depoimento",
           "settings": {
-            "depoimento": "<p>'Já não consigo mais falar sobre queijos brasileiros sem menciona-lo. Cuestinha é um queijo para quem gosta do simples, sofisticado. De complexidade sem ser complicado. Um queijo para qualquer idade; que dispensa acompanhamento porque a casca complementa a massa como se fossem dois alimentos distintos, harmonizados'<\/p>",
+            "depoimento": "<p>{{ product.metafields.custom.depoimento | metafield_tag }}<\/p>",
             "autor": "Jhon Braga"
           }
         },

@@ -131,7 +131,7 @@
           "settings": {
             "heading": "Receitas",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.receitas | metafield_tag }}",
             "page": ""
           }
         },
@@ -197,10 +197,94 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "mosaico_product_V6YACA": {
+      "type": "mosaico-product",
+      "blocks": {
+        "product_yWy6wM": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_EDN4WK": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_nK388L": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_gkBFhM": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_73VtDF": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_q9LAUV": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_fHjgpg": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        },
+        "product_NtTNcp": {
+          "type": "product",
+          "settings": {
+            "product": "cuestazul",
+            "custom_title": "",
+            "product_title_hidden": false
+          }
+        }
+      },
+      "block_order": [
+        "product_yWy6wM",
+        "product_EDN4WK",
+        "product_nK388L",
+        "product_gkBFhM",
+        "product_73VtDF",
+        "product_q9LAUV",
+        "product_fHjgpg",
+        "product_NtTNcp"
+      ],
+      "settings": {
+        "desktop_columns": "col-md-3",
+        "mobile_columns": "col-6"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "mosaico_product_V6YACA"
   ]
 }

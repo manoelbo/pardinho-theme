@@ -30,7 +30,7 @@
         "sensorial_KPhQaE": {
           "type": "sensorial",
           "settings": {
-            "sensorial_text": "<p>Queijo de massa macia, com notas láticas adocicadas e amendoadas. Sua casca rústica, rica em sabores e textura, contribui com a experiência geral.<\/p>"
+            "sensorial_text": "{{ product.metafields.custom.sensorial | metafield_tag }}"
           }
         },
         "caption": {

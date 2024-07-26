@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Ingredientes",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.ingredientes | metafield_tag }}",
             "page": ""
           }
         },

@@ -1270,3 +1270,26 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+function adjustZoom() {
+  const minDesktopWidth = 1200;
+  const minTabletWidth = 678;
+  const minMobileWidth = 320;
+
+  let zoom = 1;
+
+  const viewportWidth = window.innerWidth;
+
+  if (viewportWidth > minDesktopWidth) {
+    zoom = viewportWidth / minDesktopWidth;
+  } else if (viewportWidth < minTabletWidth) {
+    zoom = viewportWidth / minTabletWidth;
+  }
+
+  document.documentElement.style.setProperty('--workspace-zoom', zoom);
+  document.documentElement.style.setProperty('--workspace-inverse-zoom', 1 / zoom);
+  document.documentElement.style.setProperty('--workspace-inverse-zoom-px', 1 / zoom + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', adjustZoom);
+window.addEventListener('resize', adjustZoom);

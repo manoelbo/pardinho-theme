@@ -235,7 +235,8 @@
                             {{ block.settings.heading | default: block.settings.page.title | escape }}
                           </h2>
                         </div>
-                        {% render 'icon-caret' %}
+                        {% render 'icon-plus' %}
+                        {% render 'icon-minus' %}
                       </summary>
                       <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                         {{ block.settings.content }}

@@ -95,7 +95,7 @@
           "settings": {
             "heading": "Visual e sensorial \/ descrição técnica",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.visual | metafield_tag }}",
             "page": ""
           }
         },

@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Harmonização",
             "icon": "none",
-            "content": "<p>Teste<\/p>",
+            "content": "{{ product.metafields.custom.harmonizaco | metafield_tag }}",
             "page": ""
           }
         },

@@ -69,7 +69,7 @@
           "type": "depoimento",
           "settings": {
             "depoimento": "<p>{{ product.metafields.custom.depoimento | metafield_tag }}<\/p>",
-            "autor": "Jhon Braga"
+            "autor": "{{ product.metafields.custom.autor_do_depoimento.value }}"
           }
         },
         "collapsible-row-0": {

@@ -12,6 +12,15 @@
     "mosaico_product_cDiAeA": {
       "type": "mosaico-product",
       "blocks": {
+        "product_hqt3yM": {
+          "type": "product",
+          "settings": {
+            "product": "cuestinha",
+            "custom_title": "",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_dfe5f6425dca4b6b80d4e2b7d6a4a297_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
         "product_FEh4fj": {
           "type": "product",
           "settings": {
@@ -21,19 +30,10 @@
             "product_title_hidden": false
           }
         },
-        "product_hqt3yM": {
-          "type": "product",
-          "settings": {
-            "product": "cuestazul",
-            "custom_title": "cuestinha",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_dfe5f6425dca4b6b80d4e2b7d6a4a297_mv2.webp",
-            "product_title_hidden": false
-          }
-        },
         "product_RLWTyb": {
           "type": "product",
           "settings": {
-            "product": "cuestazul",
+            "product": "mandala",
             "custom_title": "Mandala",
             "custom_image": "shopify:\/\/shop_images\/bd21df_c83bc94bc00148f0abee586b56aec925_mv2.webp",
             "product_title_hidden": false
@@ -86,8 +86,8 @@
         }
       },
       "block_order": [
-        "product_FEh4fj",
         "product_hqt3yM",
+        "product_FEh4fj",
         "product_RLWTyb",
         "product_8wJbPj",
         "product_Bi8Mne",

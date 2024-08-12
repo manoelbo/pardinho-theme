@@ -27,6 +27,13 @@
           "settings": {
           }
         },
+        "depoimento_FFhUnx": {
+          "type": "depoimento",
+          "settings": {
+            "depoimento": "<p>{{ product.metafields.custom.depoimento | metafield_tag }}<\/p>",
+            "autor": "{{ product.metafields.custom.autor_do_depoimento.value }}"
+          }
+        },
         "sensorial_KPhQaE": {
           "type": "sensorial",
           "settings": {
@@ -63,13 +70,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "depoimento_FFhUnx": {
-          "type": "depoimento",
-          "settings": {
-            "depoimento": "<p>{{ product.metafields.custom.depoimento | metafield_tag }}<\/p>",
-            "autor": "{{ product.metafields.custom.autor_do_depoimento.value }}"
           }
         },
         "collapsible-row-0": {
@@ -146,13 +146,13 @@
         "title",
         "description",
         "tags_pNQmDJ",
+        "depoimento_FFhUnx",
         "sensorial_KPhQaE",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "depoimento_FFhUnx",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -213,8 +213,8 @@
         "product_EDN4WK": {
           "type": "product",
           "settings": {
-            "product": "cuestazul",
-            "custom_title": "Cuestinha",
+            "product": "cuestinha",
+            "custom_title": "",
             "custom_image": "shopify:\/\/shop_images\/bd21df_da6ff778d3a84eec9ca88caa867ed9eb_mv2.webp",
             "product_title_hidden": false
           }
@@ -222,26 +222,17 @@
         "product_nK388L": {
           "type": "product",
           "settings": {
-            "product": "cuestazul",
-            "custom_title": "Mandala",
+            "product": "mandala",
+            "custom_title": "",
             "custom_image": "shopify:\/\/shop_images\/bd21df_3bef12d2863040509875b355cd8d8c4e_mv2.webp",
-            "product_title_hidden": false
-          }
-        },
-        "product_gkBFhM": {
-          "type": "product",
-          "settings": {
-            "product": "cuestazul",
-            "custom_title": "Mandalinha",
-            "custom_image": "shopify:\/\/shop_images\/bd21df_b67377b9a98d4719b81176a210aaea5b_mv2.webp",
             "product_title_hidden": false
           }
         },
         "product_73VtDF": {
           "type": "product",
           "settings": {
-            "product": "cuestazul",
-            "custom_title": "Cuesta",
+            "product": "cuesta",
+            "custom_title": "",
             "custom_image": "shopify:\/\/shop_images\/bd21df_50bfd6526c384f1cad1aeafce451378a_mv2.webp",
             "product_title_hidden": false
           }
@@ -249,9 +240,18 @@
         "product_q9LAUV": {
           "type": "product",
           "settings": {
-            "product": "cuestazul",
-            "custom_title": "Azul de Pardinho",
+            "product": "azul-de-pardinho",
+            "custom_title": "",
             "custom_image": "shopify:\/\/shop_images\/bd21df_c83bc94bc00148f0abee586b56aec925_mv2.webp",
+            "product_title_hidden": false
+          }
+        },
+        "product_gkBFhM": {
+          "type": "product",
+          "settings": {
+            "product": "mandalinha",
+            "custom_title": "",
+            "custom_image": "shopify:\/\/shop_images\/bd21df_b67377b9a98d4719b81176a210aaea5b_mv2.webp",
             "product_title_hidden": false
           }
         },
@@ -278,9 +278,9 @@
         "product_yWy6wM",
         "product_EDN4WK",
         "product_nK388L",
-        "product_gkBFhM",
         "product_73VtDF",
         "product_q9LAUV",
+        "product_gkBFhM",
         "product_fHjgpg",
         "product_NtTNcp"
       ],

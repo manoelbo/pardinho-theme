@@ -23,9 +23,9 @@
               {% endif %}
               <div class="overlay">
                 {% if block.settings.custom_title and block.settings.product_title_hidden != true %}
-                  <h4 class="fs-2">{{ block.settings.custom_title | default: product.title }}</h4>
+                  <h4 class="fs-1">{{ block.settings.custom_title | default: product.title }}</h4>
                 {% elsif block.settings.custom_title and block.settings.product_title_hidden != true %}
-                  <h4 class="fs-2">{{ block.settings.custom_title | default: product.title }}</h4>
+                  <h4 class="fs-1">{{ block.settings.custom_title | default: product.title }}</h4>
                 {% endif %}
               </div>
             </div>

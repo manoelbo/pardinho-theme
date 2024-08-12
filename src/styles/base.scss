@@ -361,12 +361,13 @@ variant-selects {
 
   h4 {
     color: white;
-    // font-family: var(--font-body-family);
-    font-family: 'Bodoni Moda';
+    font-family: var(--font-body-family);
+    font-weight: normal;
     padding: 25px;
     margin: 0;
     text-transform: uppercase;
     width: 80%;
+    letter-spacing: 0.7px;
   }
 }
 
@@ -1503,6 +1504,7 @@ variant-selects {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
+
 
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;

@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -39,6 +38,7 @@
         "heading_FGXTTD",
         "text_8yKgxL"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SOBRE_terroir_1_edited.jpg",
         "image_overlay_opacity": 0,
@@ -84,6 +84,7 @@
         "text_xTCezW",
         "button_gt8dyz"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC03978_edited.jpg",
         "height": "adapt",
